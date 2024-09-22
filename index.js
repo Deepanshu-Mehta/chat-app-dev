@@ -18,7 +18,7 @@ App.use(express.urlencoded({ extended: true }));
 App.use(express.json());
 App.use(cookieParser());
 const corsOption = {
-    origin: 'http://localhost:3000',
+    origin: 'https://chat-app-nine-wine.vercel.app',
     credentials: true
 };
 App.use(cors(corsOption));
