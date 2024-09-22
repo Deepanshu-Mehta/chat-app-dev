@@ -18,7 +18,6 @@ const PORT = process.env.PORT || 5000;
 App.use(express.urlencoded({ extended: true }));
 App.use(express.json());
 App.use(cookieParser());
-App.use(morgan('dev'));
 const corsOption = {
     origin: 'http://localhost:3000',
     credentials: true
