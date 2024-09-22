@@ -6,7 +6,6 @@ const messageRoute = require("./Routes/messageRouter.js");
 const cookieParser = require("cookie-parser");
 const cors = require('cors');
 const { app, server } = require("./socket/socket.js");
-var morgan = require('morgan')
 
 
 
