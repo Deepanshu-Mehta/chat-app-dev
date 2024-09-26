@@ -18,7 +18,7 @@ App.use(express.urlencoded({ extended: true }));
 App.use(express.json());
 App.use(cookieParser());
 const corsOption = {
-    origin: 'https://chat-app-f5h.pages.dev/login',
+    origin: 'https://chat-app-f5h.pages.dev',
     credentials: true
 };
 App.use(cors(corsOption));
